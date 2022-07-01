@@ -4,10 +4,10 @@ spring:
   application:
     name: coupon-ws
   datasource:
-    url: jdbc:mysql://database-1.cqk5clk1vrka.us-east-1.rds.amazonaws.com:3306/hr
+    url: jdbc:mysql://database-1.cqk5clk1vrka.us-east-1.rds.amazonaws.com/hr
     username: admin
     password: admin1234
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     show-sql: true
