@@ -4,9 +4,9 @@ spring:
   application:
     name: coupon-ws
   datasource:
-    url: jdbc:mysql://database-1.cqk5clk1vrka.us-east-1.rds.amazonaws.com/hr
-    username: admin
-    password: admin1234
+    url: jdbc:mysql://3.84.74.123:3306/hr
+    username: root
+    password: root@1234
   jpa:
     hibernate:
       ddl-auto: create
